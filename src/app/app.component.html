@@ -1,0 +1,28 @@
+<ion-app  color="dark">
+  <ion-split-pane color="dark" >
+    <ion-menu contentId="main-content">
+      <ion-header color="dark">
+        <ion-toolbar color="primary">
+          <ion-title color="dark">Menu</ion-title>
+        </ion-toolbar>
+      </ion-header >
+      <ion-content color="dark">
+        <ion-list color="dark" >
+          <ion-menu-toggle color="dark" auto-hide="false">
+            <ion-item color ="dark" [routerLink]="'/music-option1'">
+              <ion-icon  color ="primary"name="musical-notes" style="font-size: 2em;"></ion-icon> <!-- Larger Music Note Icon -->
+              <h2  color ="primary"style="font-size: 0.8em;">When The Moon’s Reaching Out Stars </h2> <!-- Smaller Title -->
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-menu-toggle auto-hide="false">
+            <ion-item color ="dark" [routerLink]="'/music-option2'">
+              <ion-icon  color ="primary"name="musical-notes" style="font-size: 2em;"></ion-icon> <!-- Larger Music Note Icon -->
+              <h2  color ="primary"style="font-size: 0.8em;">Color Your Night</h2> <!-- Smaller Title -->
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

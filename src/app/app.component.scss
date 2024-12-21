@@ -1,0 +1,108 @@
+ion-menu {
+  --width: 40%;
+}
+ion-menu ion-content {
+  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+}
+
+ion-menu.md ion-content {
+  --padding-start: 5px; /* Reduced padding start */
+  --padding-end: 5px; /* Reduced padding end */
+  --padding-top: 5px; /* Reduced padding top */
+  --padding-bottom: 5px; /* Reduced padding bottom */
+}
+
+ion-menu.md ion-list {
+  padding: 5px 0; /* Reduced padding */
+}
+
+ion-menu.md ion-note {
+  margin-bottom: 10px; /* Reduced margin bottom */
+}
+
+ion-menu.md ion-list-header,
+ion-menu.md ion-note {
+  padding-left: 3px; /* Reduced padding */
+}
+
+ion-menu.md ion-list#inbox-list ion-list-header {
+  font-size: 16px; /* Reduced font size */
+}
+
+ion-menu.md ion-list#labels-list ion-list-header {
+  font-size: 12px; /* Reduced font size */
+  margin-bottom: 10px; /* Reduced margin bottom */
+}
+
+ion-menu.md ion-item {
+  --padding-start: 5px; /* Reduced padding start */
+  --padding-end: 5px; /* Reduced padding end */
+  border-radius: 2px; /* Reduced border radius */
+}
+
+ion-menu.md ion-item.selected {
+  --background: rgba(var(--ion-color-primary-rgb), 0.1); /* Adjusted background transparency */
+}
+
+ion-menu.md ion-item.selected ion-icon {
+  color: var(--ion-color-primary);
+}
+
+ion-menu.md ion-item ion-icon {
+  font-size: 14px; /* Reduced font size */
+}
+
+ion-menu.md ion-item ion-label {
+  font-weight: 400; /* Adjusted font weight */
+}
+
+ion-menu.ios ion-content {
+  --padding-bottom: 5px; /* Reduced padding bottom */
+}
+
+ion-menu.ios ion-list {
+  padding: 5px 0 0 0; /* Reduced padding */
+}
+
+ion-menu.ios ion-note {
+  line-height: 18px; /* Reduced line height */
+  margin-bottom: 8px; /* Reduced margin bottom */
+}
+
+ion-menu.ios ion-item {
+  --padding-start: 8px; /* Reduced padding start */
+  --padding-end: 8px; /* Reduced padding end */
+  --min-height: 30px; /* Reduced min height */
+}
+
+ion-menu.ios ion-item.selected ion-icon {
+  color: var(--ion-color-primary);
+}
+
+ion-menu.ios ion-item ion-icon {
+  font-size: 12px; /* Reduced font size */
+}
+
+ion-menu.ios ion-list#labels-list ion-list-header {
+  margin-bottom: 5px; /* Reduced margin bottom */
+}
+
+ion-menu.ios ion-list-header,
+ion-menu.ios ion-note {
+  padding-left: 8px; /* Reduced padding */
+  padding-right: 8px; /* Reduced padding */
+}
+
+ion-menu.ios ion-note {
+  margin-bottom: 5px; /* Reduced margin bottom */
+}
+
+ion-note {
+  display: inline-block;
+  font-size: 12px; /* Reduced font size */
+  color: var(--ion-color-medium-shade);
+}
+
+ion-item.selected {
+  --color: var(--ion-color-primary);
+}

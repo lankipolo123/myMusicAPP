@@ -1,0 +1,37 @@
+.lyrics-content {
+  --background: url('/assets/images/asmileinyourheart/hearts.jpg') no-repeat center center / cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.lyrics-card {
+  --background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.lyrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p{
+  text-align:center;
+}
+
+ion-title{
+  text-align:center;
+}
